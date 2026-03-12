@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>About</title>
+
+
+    <style>
+body{
+    background-color: black
+}
+
+p{
+border-radius: 5px;
+    background-color:rgb(25, 25, 23);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+    </style>
+</head>
+<body>
+    <center>
+    <h1 style="color: white;">ShoeWeb.In</h1></center>
+    <p>
+
+About Us – ShoeWeb
+
+ShoeWeb is a Gurgaon-based company dedicated to bringing stylish, comfortable, and high-quality footwear to customers through a seamless online shopping experience. We focus on combining modern trends with everyday comfort, offering a wide range of shoes for different lifestyles and occasions. At ShoeWeb, our goal is to make premium footwear accessible while ensuring great value, reliable service, and customer satisfaction with every step. 
+
+</p>
+
+<p>
+
+    Address :
+<br>
+Gurgaon <br>
+123301
+<br>
+Haryana
+
+<br>
+<br>
+Contact: <br>
+Phone: 98343483943 <br>
+Email: @showeb3@gmail.com
+</p>
+</body>
+</html>
