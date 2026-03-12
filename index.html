@@ -1,150 +1,221 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
-    <title>ShoeWeb</title>
-
+<title>ShoeWeb</title>
 
 <style>
 
-
-
 *{
-    background-color: black;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0px;
-    margin-right: 7px;
-
-
-
+background-color:black;
+color:white;
+font-family:Segoe UI;
+margin:0;
+margin-right:7px;
 }
 
 .ttl{
-    margin-left: 10px;
-    margin-top: 2px;
-    z-index: 10;
+margin-left:10px;
+margin-top:2px;
 }
-
 
 a{
-    text-decoration: none;
+text-decoration:none;
 }
-
 
 .sneaker{
-    display: flex;
+display:flex;
 }
-
-
 
 .probox{
-
-width: 35vw;
-height: 30vh;
-margin-left: 10px;
-display: flex;
-border-radius: 8px;
-
+width:35vw;
+height:30vh;
+margin-left:10px;
+display:flex;
+border-radius:8px;
 }
-
 
 .imag{
-display: flex;
+display:flex;
 object-fit:cover;
-border-radius: 8px;
-    width: 50%;
-    height: 100%;
-    background-color: rgb(39, 37, 37);
+border-radius:8px;
+width:50%;
+height:100%;
+background-color:rgb(39,37,37);
 }
-.detail{
-display: flex;
-    width: 50%;
-    background-color: rgb(39, 37, 37);
-    height: 100%;
-    font-size: 23px;
-    font-style: oblique;
-    flex-direction: column;
-}
-.btn{
 
-   
-    border-radius: 6px;
-    font-size: 19px;
-    margin-top: 10px;
-    font-family:fantasy;
-    background-color: rgb(40, 92, 31);
+.detail{
+display:flex;
+width:50%;
+background-color:rgb(39,37,37);
+height:100%;
+font-size:20px;
+flex-direction:column;
+}
+
+.btn{
+border-radius:6px;
+font-size:18px;
+margin-top:10px;
+font-family:fantasy;
+background-color:rgb(40,92,31);
 }
 
 </style>
-
-
-
-
 </head>
-<body>
-    <div class="nav" style="display: flex; justify-content: space-between; margin-top: 5px;">
 
-  <span class="ttl" style="font-size: 20px;">ShoeWeb.in</span>
+<body>
+
+<div style="display:flex;justify-content:space-between;margin-top:5px;">
+
+<span class="ttl" style="font-size:20px;">ShoeWeb.in</span>
+
+
 <span>
-    <span><a href="about.htm">AboutUs </a>  </span>
-    <span>  &nbsp</span>
-    <span> <a href="cart.html">Your-Cart</a>  </span>
+    <a href="about.html"></a>
+<a href="cart.php">Your Cart</a>
 </span>
+
 </div>
 
 
-<h2 style="margin-left: 10px; margin-top: 20px;">Sneakers</h2>
- <div class="sneaker" style="display:flex; justify-content: space-between; margin-top: 20px;">
- 
-    <span class="probox" style="background-color: rgb(39, 37, 37);">    
+<h2 style="margin-left:10px;margin-top:20px;">Sneakers</h2>
 
-        <img class="imag" src="https://rukminim2.flixcart.com/image/800/1070/xif0q/shoe/j/f/w/6-trend-707-sneakers-06-6-0-pocy-shoes-white-original-imahjtyu5jhzxytx.jpeg?q=80" alt="">
-        <span class="detail"> REDTAPE MAX</BR> Price : 797₹ <br> Size : 7 <br> 10 Day Return ✔ <br> Cash on Delivery ✔ <br> Exchange ✔ <button class="btn"> Add to the cart</button>  </span>
-    </span>
-    <span class="probox" style="background-color: rgb(39, 37, 37);">    
-
-        <img class="imag" src="https://rukminim2.flixcart.com/image/1912/1912/xif0q/shoe/n/4/w/-original-imahh6we3ygfdrdg.jpeg?q=90" alt="">
-        <span class="detail">REEBOK SPORTS <BR>Price : 699₹ <br> Size : 9 <br> 10 Day Return ✔ <br> Cash on Delivery ✔ <br> Exchange ✔ <button class="btn"> Add to the cart</button> </span>
-    </span>
-    <span class="probox" style="background-color: rgb(39, 37, 37);">    
-
-        <img class="imag" src="https://rukminim2.flixcart.com/image/1912/1912/xif0q/shoe/d/x/r/-original-imahgbryqsnthwdj.jpeg?q=90" alt="">
-        <span class="detail">REDTAPE MAX2 <BR> Price : 996₹ <br> Size : 7 <br> 10 Day Return ✔ <br> Cash on Delivery ✔ <br> Exchange ✔ <button class="btn"> Add to the cart</button> </span>
-    </span>
+<div class="sneaker" style="justify-content:space-between;margin-top:20px;">
 
 
- </div>
+<span class="probox" style="background-color:rgb(39,37,37);">
+
+<img class="imag" src="https://rukminim2.flixcart.com/image/800/1070/xif0q/shoe/j/f/w/6-trend-707-sneakers-06-6-0-pocy-shoes-white-original-imahjtyu5jhzxytx.jpeg?q=80">
+
+<span class="detail">
+
+REDTAPE MAX<br>
+Price : $797<br>
+Size : 7<br>
+10 Day Return <br>
+Cash on Delivery <br>
+Exchange 
+
+<button class="btn" onclick="location.href='add.php?name=REDTAPE MAX&price=797'">
+Add to cart
+</button>
+
+</span>
+</span>
 
 
+<span class="probox" style="background-color:rgb(39,37,37);">
+
+<img class="imag" src="https://rukminim2.flixcart.com/image/1912/1912/xif0q/shoe/n/4/w/-original-imahh6we3ygfdrdg.jpeg?q=90">
+
+<span class="detail">
+
+REEBOK SPORTS<br>
+Price : $699<br>
+Size : 9<br>
+10 Day Return <br>
+Cash on Delivery <br>
+Exchange 
+
+<button class="btn" onclick="location.href='add.php?name=REEBOK SPORTS&price=699'">
+Add to cart
+</button>
+
+</span>
+</span>
 
 
+<span class="probox" style="background-color:rgb(39,37,37);">
+
+<img class="imag" src="https://rukminim2.flixcart.com/image/1912/1912/xif0q/shoe/d/x/r/-original-imahgbryqsnthwdj.jpeg?q=90">
+
+<span class="detail">
+
+REDTAPE MAX2<br>
+Price : $996<br>
+Size : 7<br>
+10 Day Return <br>
+Cash on Delivery <br>
+Exchange 
+
+<button class="btn" onclick="location.href='add.php?name=REDTAPE MAX2&price=996'">
+Add to cart
+</button>
+
+</span>
+</span>
+
+</div>
 
 
+<h2 style="margin-left:10px;margin-top:20px;">Leather Shoe</h2>
 
- <h2 style="margin-left: 10px; margin-top: 20px;">Leather Shoe</h2>
-
-<div class="sneaker" style="display:flex; justify-content: space-between; margin-top: 20px;">
- 
-    <span class="probox" style="background-color: rgb(39, 37, 37);">    
-
-        <img class="imag" src="https://rukminim2.flixcart.com/image/1912/1912/xif0q/shoe/i/f/q/8-cdl21black8-8-chiragassociates-black-original-imahha7tgmpwv4gb.jpeg?q=90" alt="">
-        <span class="detail">REDTAPE TOUGH <BR>Price : 868₹<br> Size : 8 <br> 10 Day Return ✔ <br> Cash on Delivery ✔ <br> Exchange ✔ <button class="btn"> Add to the cart</button> </span>
-    </span>
-    <span class="probox" style="background-color: rgb(39, 37, 37);">    
-
-        <img class="imag" src="https://rukminim2.flixcart.com/image/1912/1912/xif0q/shoe/c/0/o/6-group-333-6-aadi-black-original-imahffdvmduzzpdc.jpeg?q=90" alt="">
-        <span class="detail">LEATHER TOUGH <BR>Price : 595₹ <br> Size : 6 <br> 10 Day Return ✔ <br> Cash on Delivery ✔ <br> Exchange ✔ <button class="btn"> Add to the cart</button> </span>
-    </span>
-    <span class="probox" style="background-color: rgb(39, 37, 37);">    
-
-        <img class="imag" src="https://rukminim2.flixcart.com/image/1912/1912/xif0q/shoe/r/p/v/8-2016-8-restroad-brown-original-imahhfcqjabpdrrf.jpeg?q=90" alt="">
-        <span class="detail">REEBOK LEATHER <BR>Price : 785₹ <br> Size : 7 <br> 10 Day Return ✔ <br> Cash on Delivery ✔ <br> Exchange ✔ <button class="btn"> Add to the cart</button> </span>
-    </span>
+<div class="sneaker" style="justify-content:space-between;margin-top:20px;">
 
 
+<span class="probox" style="background-color:rgb(39,37,37);">
+
+<img class="imag" src="https://rukminim2.flixcart.com/image/1912/1912/xif0q/shoe/i/f/q/8-cdl21black8-8-chiragassociates-black-original-imahha7tgmpwv4gb.jpeg?q=90">
+
+<span class="detail">
+
+REDTAPE TOUGH<br>
+Price : $868<br>
+Size : 8<br>
+10 Day Return <br>
+Cash on Delivery <br>
+Exchange 
+
+<button class="btn" onclick="location.href='add.php?name=REDTAPE TOUGH&price=868'">
+Add to cart
+</button>
+
+</span>
+</span>
 
 
+<span class="probox" style="background-color:rgb(39,37,37);">
+
+<img class="imag" src="https://rukminim2.flixcart.com/image/1912/1912/xif0q/shoe/c/0/o/6-group-333-6-aadi-black-original-imahffdvmduzzpdc.jpeg?q=90">
+
+<span class="detail">
+
+LEATHER TOUGH<br>
+Price : $595<br>
+Size : 6<br>
+10 Day Return <br>
+Cash on Delivery <br>
+Exchange 
+
+<button class="btn" onclick="location.href='add.php?name=LEATHER TOUGH&price=595'">
+Add to cart
+</button>
+
+</span>
+</span>
+
+
+<span class="probox" style="background-color:rgb(39,37,37);">
+
+<img class="imag" src="https://rukminim2.flixcart.com/image/1912/1912/xif0q/shoe/r/p/v/8-2016-8-restroad-brown-original-imahhfcqjabpdrrf.jpeg?q=90">
+
+<span class="detail">
+
+REEBOK LEATHER<br>
+Price : $785<br>
+Size : 7<br>
+10 Day Return <br>
+Cash on Delivery <br>
+Exchange 
+
+<button class="btn" onclick="location.href='add.php?name=REEBOK LEATHER&price=785'">
+Add to cart
+</button>
+
+</span>
+</span>
+
+</div>
 
 </body>
 </html>
