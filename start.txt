@@ -1,0 +1,9 @@
+http://localhost/phpmyadmin
+
+shop
+
+CREATE TABLE cart (
+name VARCHAR(100),
+price INT
+);
+http://localhost/shoeweb/index.html
